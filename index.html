@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		
+		<title>Burnham Fancy Website</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+	<body>
+		<h1>Shell Command Cheat Sheet</h1>
+		<p>A quick reference for some commonly used shell commands.</p>
+		
+		<img alt="Picture of an old computer" src="http://geoffreymultimedia.com/wp-content/uploads/2008/12/old-computer-new-computer.jpg">
+		
+		<h2>Unix Commands</h2>
+		
+		<table>
+			<tr>
+				<th>Command</th>
+				<th>Usage</th>
+				<th>Example</th>
+			</tr>
+			<tr>
+				<td>ls</td>
+				<td>Lists the contents of a directory. Useful for seeing what you can access easily.</td>
+				<td><span>$</span> ls <br> Documents Desktop MyFolder</td>
+			</tr>
+			<tr>
+				<td>tree</td>
+				<td>Lists directories in a tree format. Useful for seeing how your directory is structured.</td>
+				<td><span>$</span> tree <br> (directory tree display)</td>
+			</tr>
+			<tr>
+				<td>file &lt;filename&gt;</td>
+				<td>Used for determining what kind of file something is. It deduces what kind of file it is based on what is contained inside and does not use the file extension.</td>
+				<td><span>$</span> file myFile <br> myFile.txt: news or mail text</td>
+			</tr>
+			<tr>
+				<td>type &lt;command&gt;</td>
+				<td>Used to determine command types, such as a built in command vs a program specific command.</td>
+				<td><span>$</span> type ls <br> ls is a shell built in</td>
+			</tr>
+			<tr>
+				<td>apropos &lt;command&gt;</td>
+				<td>Shows you information about a command, such as where it is stored and what it is used for</td>
+				<td><span>$</span> apropos ls <br> (command data display)</td>
+			</tr>
+			<tr>
+				<td>man &lt;command&gt;</td>
+				<td>Shows the manual entry on a command, useful for knowing usage that may be specific to your version or programs.</td>
+				<td><span>$</span> man ls <br> (ls manual documentation)</td>
+			</tr>
+			<tr>
+				<td>pwd</td>
+				<td>Acronym for Print Working Directory. It shows you what directory you are currently in.</td>
+				<td><span>$</span> pwd <br> myDirectory</td>
+			</tr>
+			<tr>
+				<td>cd &lt;directoryName&gt;</td>
+				<td>Acronym for change directory. It lets you move around in the directory tree.</td>
+				<td><span>$</span> cd someDirectory</td>
+			</tr>
+			<tr>
+				<td>mkdir &lt;directoryName&gt;</td>
+				<td>Shorthand for Make Directory. Allows you to create new directories.</td>
+				<td><span>$</span> mkdir newDirectory</td>
+			</tr>
+			<tr>
+				<td>echo &lt;content&gt;</td>
+				<td>Allows you to print stuff to the command line. Useful for getting information from scripts for debugging purposes.</td>
+				<td><span>$</span> echo Hellew Werld <br> Hellew Werld</td>
+			</tr>
+			<tr>
+				<td>cat &lt;fileName&gt;</td>
+				<td>Outputs the contents of a file to the command line. Usually you will only see the end of a file.</td>
+				<td><span>$</span>cat myFile <br> (myFile contents)</td>
+			</tr>
+			<tr>
+				<td>less</td>
+				<td>Updated version of the older "more" command. Allows you to display different pages of a file, and has several options for doing so.</td>
+				<td><span>$</span> less myFile <br> (file Contents)</td>
+			</tr>
+			
+		</table>
+		
+		<p><a href="http://www.google.com">For all else, there's Google</a></p>
+	
+	
+	<p>Hover over the image to keep the planets spinning in orbit with your awesome power!</p>
+	<div id="starSystem">
+		<div id="orbit">
+			<div id="star"></div>
+				<div id="moonorbit">
+					<div id="planet"></div>
+					<div id="iojr"></div>
+				</div>
+		</div>
+	</div>
+	<!--Note: This little solar system is my re-creation of a project that I did on CodeCademy forever ago, I don't know what the code looked like for the one back then but it was probably similar.-->
+	
+	<h1 id="teeheeimhidden">I LIKE TO HIDE</h1>
+		
+	</body>
+</html>
